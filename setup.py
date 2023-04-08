@@ -18,7 +18,7 @@ URL = 'https://github.com/chensav/VmLogin'
 EMAIL = 'chensav@163.com'
 AUTHOR = 'chensav'
 REQUIRES_PYTHON = '>=3.8.16'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
