@@ -1,4 +1,4 @@
-def create_profile(self, body: object = None):
+def create_profile(self, body: dict = None):
     """
     创建
     :return:
@@ -9,7 +9,7 @@ def create_profile(self, body: object = None):
     return self.send_request('POST', '/profile/create', params)
 
 
-def update_profile(self, profile_id: str = None, body: object = None):
+def update_profile(self, profile_id: str = None, body: dict = None):
     """
     更新配置
 
@@ -21,7 +21,7 @@ def update_profile(self, profile_id: str = None, body: object = None):
         'profileId': profile_id,
         'Body': body,
     }
-    return self.query('/profile/update', params)
+    return self.send_request('POST', '/profile/update', params)
 
 
 def get_profile_detail(self, profile_id: str = None):
