@@ -14,11 +14,11 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'VmLogin'
 DESCRIPTION = '操作VMLogin'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'chensav@example.com'
+URL = 'https://github.com/chensav/VmLogin'
+EMAIL = 'chensav@163.com'
 AUTHOR = 'chensav'
 REQUIRES_PYTHON = '>=3.8.16'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
