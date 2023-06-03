@@ -50,10 +50,11 @@ class API(object):
                 "url": url,
                 "params": payload,
             }
+
         else:
             params = {
                 "url": url,
-                "data": json.dumps(payload),
+                "data": payload,
             }
         response = self._dispatch_request(http_method)(**params)
         self._handle_exception(response)
